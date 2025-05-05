@@ -6,6 +6,7 @@ import HomeContent from "./components/HomeContent";
 const Home: React.FC = () => {
   return (
     <Provider store={store} children={<HomeContent />} />
+    // <></>
   );
 };
 

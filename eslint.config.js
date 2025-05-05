@@ -25,11 +25,7 @@ export default [
     languageOptions: {
       parser: tsParser
     },
-    plugins: {
-      "@typescript-eslint": ts,
-      react,
-      "react-hooks": reactHooks
-    },
+    plugins: ["@typescript-eslint", "react", "react-hooks"],
     rules: {
       "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
       "import/extensions": "off",
